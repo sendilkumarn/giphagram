@@ -38,16 +38,17 @@ npm run test:unit
 ```
 
 ### Current Coverage status
+```
 -----------------------|----------|----------|----------|----------|-------------------|
 File                   |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
 -----------------------|----------|----------|----------|----------|-------------------|
-All files               |    96.75 |    94.74 |       90 |    98.25 |                   |
+All files              |    96.75 |    94.74 |       90 |    98.25 |                   |
  src                   |      100 |      100 |      100 |      100 |                   |
   App.vue              |      100 |      100 |      100 |      100 |                   |
  src/components        |      100 |    92.86 |      100 |      100 |                   |
   Giphagram.vue        |      100 |      100 |      100 |      100 |                   |
   ImageLoader.vue      |      100 |      100 |      100 |      100 |                   |
-  InfiniteListView.vue  |      100 |       50 |      100 |      100 |                44 |
+  InfiniteListView.vue |      100 |       50 |      100 |      100 |                44 |
   LayoutSelector.vue   |      100 |      100 |      100 |      100 |                   |
   Search.vue           |      100 |      100 |      100 |      100 |                   |
  src/directives        |    84.21 |     87.5 |    66.67 |    94.12 |                   |
@@ -62,7 +63,7 @@ All files               |    96.75 |    94.74 |       90 |    98.25 |           
   mutation-actions.js  |      100 |      100 |      100 |      100 |                   |
   mutations.js         |      100 |      100 |      100 |      100 |                   |
 -----------------------|----------|----------|----------|----------|-------------------| 
-
+```
 ## Production build
 If you would like to compile and build the application in production mode. Run the following command.
 ```
